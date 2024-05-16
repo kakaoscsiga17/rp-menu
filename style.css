@@ -1,18 +1,35 @@
 nav{
-    background-color: black;
+    background-color: rgb(167, 13, 238);
     display: flex;
     flex-direction: row;
+    
     align-items: center;
     justify-content: center;
     gap: 20px;
-    height: 50px;
+   height: 50px;
 }
 nav a{
     font-size: 20px;
-    color: aqua;
+    color: rgb(14, 0, 0);
 }
 
-    
+    h1{
+        text-align: center;
+        
+    }
+body{
+    margin: 0px;
+    background-color: rgb(170, 13, 157);
+}
+div{
+    margin: 8px;
+}
+.container{
+    margin: 10px;
+    padding: 10px;
+ 
+   
+}
 @media screen  and (max-width: 600px){
 nav {
     flex-direction: column;
